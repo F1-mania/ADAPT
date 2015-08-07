@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == '__main__':
-	cleaned_file = open("cleantweets.txt", 'w')
+	cleaned_file = open("joinedtext.txt", 'w')
 	counter = 0
 	for folder, subs, files in os.walk("./tweets_db"):
 		for file_name in files:
